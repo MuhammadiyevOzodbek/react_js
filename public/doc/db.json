@@ -1,0 +1,38 @@
+{
+    "homePageOne": [
+        {
+            "id": 1,
+            "h1": "Nima uchun Xorazimiy?"
+        },
+        {
+            "id": 2,
+            "write": "Xorazimiy Academy hozir dasturlashni o'rganish istagidagi insonlarga 6 yildan beri professionallar bilimi, ularning tajribasi, loyihalar, tadbirlar orqali sifatli ta'lim ulashib bormoqda. Hozirgacha akademiyada tahsil olayotganlar 10 000 nafarni tashkil etadi."
+        }
+    ],
+    "homePageTwo": [
+        {
+            "id": 1,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/bucket.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9idWNrZXQuc3ZnIiwiaWF0IjoxNzM3NjIwMDAyLCJleHAiOjE3NjkxNTYwMDJ9.MY0v4iM1e1W9kIM_quUdNogvhpvVHDVqy0lemwFhFG0&t=2025-01-23T08%3A13%3A23.064Z",
+            "write": "6 yillik tajriba",
+            "desc": "PDP Academyasi 2017-yilda tashkil topdi va bugungi kunda ko’plab IT kompaniyalarni ichiga oluvchi Ekotizimga aylandi"
+        },
+        {
+            "id": 2,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/natija.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9uYXRpamEuc3ZnIiwiaWF0IjoxNzM3NjIwMzQ2LCJleHAiOjE3NjkxNTYzNDZ9.bx7lvMP2onUkU3QlvARpFU_6sOPronfP3bTv2iuwE_0&t=2025-01-23T08%3A19%3A07.172Z",
+            "write": "Natijador Kurslar",
+            "desc": "Kurs yakuniga faqatgina saralangan o'quvchilar yetib boradi va katta qismi IT kompanyalariga ishga kiradi."
+        },
+        {
+            "id": 3,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/kubok.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9rdWJvay5zdmciLCJpYXQiOjE3Mzc2MjAzODEsImV4cCI6MTc2OTE1NjM4MX0.bR9sngtOM6C3NMa3blCzp2o5hA_JsgtFxQkurdHsuus&t=2025-01-23T08%3A19%3A42.056Z",
+            "write": "Intensiv ta'lim",
+            "desc": "Dasturlash uchun eng kerakli muhit va sharoitda Intensive ta'lim oling, bunda o'quvchilar bor e'tiborlarini dasturlashga sarflaydilar"
+        },
+        {
+            "id": 4,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/odamlar.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9vZGFtbGFyLnN2ZyIsImlhdCI6MTczNzYyMDQ1NCwiZXhwIjoxNzY5MTU2NDU0fQ.GCcAoiFc68fRMvYmIuknHOBK1nUT4YicsNWN_4ZD9Ks&t=2025-01-23T08%3A20%3A54.955Z",
+            "write": "Mentorlar",
+            "desc": "Ustozlar haqiqiy praktik Xalqaro toifadagi Dasturchilar hisoblanib, hozirgi kunda turli IT - kompaniyalarda faoliyat yuritib kelishmoqda."
+        }
+    ]
+}
