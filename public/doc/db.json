@@ -34,5 +34,31 @@
             "write": "Mentorlar",
             "desc": "Ustozlar haqiqiy praktik Xalqaro toifadagi Dasturchilar hisoblanib, hozirgi kunda turli IT - kompaniyalarda faoliyat yuritib kelishmoqda."
         }
+    ],
+    "homePageThree": [
+        {
+            "id": 1,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZS5wbmciLCJpYXQiOjE3Mzc2MzMxNzYsImV4cCI6MTc2OTE2OTE3Nn0.uxh4VSIZE7FlOUNMT0yLNbbmwGPDOBR42lzTpsYF3gs&t=2025-01-23T11%3A52%3A57.164Z"
+        },
+        {
+            "id": 2,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image%201.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZSAxLnBuZyIsImlhdCI6MTczNzYzMzIxNywiZXhwIjoxNzY5MTY5MjE3fQ.8x41DQe0VSnZZWviGrSxe2rqefnw1u69VZ-XF_M7GsE&t=2025-01-23T11%3A53%3A38.106Z"
+        },
+        {
+            "id": 3,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image%202.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZSAyLnBuZyIsImlhdCI6MTczNzYzMzI0MywiZXhwIjoxNzY5MTY5MjQzfQ.qXNvm0r2ouQHFvgiJ_Q8bCTtpofwgScIAogcxFjgwXw&t=2025-01-23T11%3A54%3A03.972Z"
+        },
+        {
+            "id": 4,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image%203.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZSAzLnBuZyIsImlhdCI6MTczNzYzMzI3MywiZXhwIjoxNzY5MTY5MjczfQ.l5Vm40OM9j1vtbsA9bqiIipeZxPoSRUHMoUjNuUppJY&t=2025-01-23T11%3A54%3A33.971Z"
+        },
+        {
+            "id": 5,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image%204.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZSA0LnBuZyIsImlhdCI6MTczNzYzMzI5OCwiZXhwIjoxNzY5MTY5Mjk4fQ.8C7w-LKCPy132Ugt79wkU2p_g4PZRAXQ5FQVNoZXwrU&t=2025-01-23T11%3A54%3A59.252Z"
+        },
+        {
+            "id": 6,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/image%205.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9pbWFnZSA1LnBuZyIsImlhdCI6MTczNzYzMzMzNywiZXhwIjoxNzY5MTY5MzM3fQ.pWR9UvPFWuNgQ9yBYPbpQT7I3dVHAa26XLoa_uNNp74&t=2025-01-23T11%3A55%3A37.708Z"
+        }
     ]
 }

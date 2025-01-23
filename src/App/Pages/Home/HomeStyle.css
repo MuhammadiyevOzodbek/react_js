@@ -26,7 +26,6 @@
   width: 1200px;
   margin: auto;
   margin-top: 50px;
-  height: 100vh;
 }
 .home-page-2 .home-page-2-1 p {
   width: 1000px;
@@ -60,4 +59,33 @@
   font-size: 18px;
   line-height: 150%;
   margin-top: 5px;
+}
+.home-page-2 .iesa {
+  margin-top: 70px;
+  width: 1200px;
+  text-align: center;
+}
+.home-page-2 .iesa h1 {
+  margin-bottom: 50px;
+}
+.home-page-2 .iesa .home-page2-or1 {
+  display: flex;
+}
+.home-page-2 .iesa .home-page2-or1 .card {
+  flex: 1;
+  overflow: hidden;
+  transition: all 1s;
+}
+.home-page-2 .iesa .home-page2-or1 .card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(1);
+  width: 450px;
+  height: 450px;
+}
+.home-page-2 .iesa .home-page2-or1 .card:hover {
+  flex: 3;
+}
+.home-page-2 .iesa .home-page2-or1 .card:hover img {
+  filter: none;
 }/*# sourceMappingURL=HomeStyle.css.map */
