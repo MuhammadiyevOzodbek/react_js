@@ -74,7 +74,7 @@
 .home-page-2 .iesa .home-page2-or1 .card {
   flex: 1;
   overflow: hidden;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .home-page-2 .iesa .home-page2-or1 .card img {
   -o-object-fit: cover;
