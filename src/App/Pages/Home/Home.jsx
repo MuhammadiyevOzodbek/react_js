@@ -5,14 +5,16 @@ function Home() {
     const [data, setData] = useState([])
     const [count, setCount] = useState([])
     const [isdata, setIsData] = useState([])
+    const [iscount, setIsCount] = useState([])
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3NzIyNjczLCJleHAiOjE3MzgzMjc0NzN9.ETdmYriVO1QqegbbIm3ic-SuMvP-RcfyDRnURpK5LHY&t=2025-01-24T12%3A44%3A32.760Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3NzM0OTE3LCJleHAiOjE3MzgzMzk3MTd9.e265WB3SqWgle9IhEs0htft27Vf__cbTeU51VEePSbg&t=2025-01-24T16%3A08%3A37.906Z")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
                 setIsData(response.homePageThree)
+                setIsCount(response.homePageFour)
             } catch (error) {
                 console.error(`HTTPSda Xatolik bormi deymanda ${error}`)
             }
@@ -52,6 +54,20 @@ function Home() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </div>
+            <div className="home-page-3">
+                <div className="home-page-3-1">
+                    <p className='home-page-3-p1'>Biz haqimizda</p>
+                    <h1>Sun'iy intellekt yordamida boshqariladigan ta'lim tizimi va zamonaviy atmosfera sizning muvaffaqiyatingiz garovidir.</h1>
+                    <p className='home-page-3-p2'>Astrum IT Akademiyasi nafaqat O'zbekistondagi, balki O'rta Osiyodagi birinchi va eng katta IT Akademiya bo'lib, bu yerda sun'iy intellekt yordamida ta'lim berishning innovatsion usuli yo'lga qo'yilgan. Zamonaviy texnologiyalar, 24/7 ishlaydigan o'quv kampusi, mingga yaqing iMac'lar va qulay sharoitlar sizga haqiqiy dasturchi bo'lib yetishish imkonini beradi.</p>
+                </div>
+                <div className="home-page-3-2">
+                    {iscount.map((item, id) => (
+                        <div className='fed' key={id}>
+                            <img src={item.image} alt="" />
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
