@@ -1,6 +1,6 @@
 .scroled {
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(45px);
+          backdrop-filter: blur(45px);
 }
 .scroled a {
   color: black;
@@ -12,8 +12,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 10px 0px 10px;
-  position: fixed;
-  width: 100%;
+  position: sticky;
   z-index: 5;
   top: 0;
 }
@@ -51,4 +50,52 @@ nav a button {
   border-radius: 20px;
   border: 0;
   background-color: rgb(0, 202, 0);
+}
+
+@media (max-width: 1200px) {
+  nav {
+    transition: all 0.3s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px 10px;
+    position: sticky;
+    z-index: 5;
+    top: 0;
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+  nav ul li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  nav ul li a {
+    transition: all 0.3s;
+    color: rgb(0, 202, 0);
+    text-decoration: none;
+  }
+  nav h1 a {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(0, 202, 0);
+    text-decoration: none;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav a button {
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(0, 202, 0);
+  }
 }/*# sourceMappingURL=LayoutStyle.css.map */

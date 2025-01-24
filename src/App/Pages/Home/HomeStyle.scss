@@ -37,6 +37,7 @@
         grid-template-columns: repeat(4, 1fr);
         margin-top: 50px;
         .home-page-2-2{
+            transition: all 0.3s;
             padding: 25px;
             width: 250px;
             background: var(--brown-2, #fbfbfb);
@@ -57,6 +58,10 @@
                 font-size: 18px;
                 line-height: 150%;
                 margin-top: 5px;
+            }
+            &:hover{
+                transform: translateY(-25px);
+                box-shadow: 10px 5px 10px rgb(24, 24, 24);
             }
         }
     }
@@ -83,7 +88,6 @@
                     flex: 3;
                     img{
                         filter: none;
-                        // width: 450px;
                     }
                 }
             }

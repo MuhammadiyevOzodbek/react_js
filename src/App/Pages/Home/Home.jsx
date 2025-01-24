@@ -8,7 +8,7 @@ function Home() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3NjM1MjY3LCJleHAiOjE3MzgyNDAwNjd9.IzM-rBhzKWjBEXwxSXyotQGtsfZWnC4OncD0NzwfViA&t=2025-01-23T12%3A27%3A48.730Z25-01-23T12%3A21%3A37.556Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3NzIyNjczLCJleHAiOjE3MzgzMjc0NzN9.ETdmYriVO1QqegbbIm3ic-SuMvP-RcfyDRnURpK5LHY&t=2025-01-24T12%3A44%3A32.760Z")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
