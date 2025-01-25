@@ -3,6 +3,7 @@ import './HomeStyle.css'
 import homePageWrap from '../../../../public/iconDoc/Doc icon.png'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
+import { Link } from 'react-router-dom'
 function Home() {
     const [data, setData] = useState([])
     const [count, setCount] = useState([])
@@ -30,20 +31,20 @@ function Home() {
         <div className="home-page">
             <div className='home-page-1'>
                 <div className="home-page1-wrap">
-                    <img data-aos="fade-right" className='home-page1-pimg' src={homePageWrap} alt="" />
-                    <h1 data-aos="zoom-in" className='home-page1-ph1'>DASTURLASHNI QULAY MUHITDA O‘RGANING</h1>
+                    <img data-aos="fade-right" data-aos-duration="1100" className='home-page1-pimg' src={homePageWrap} alt="" />
+                    <h1 data-aos="zoom-in" data-aos-duration="1100" className='home-page1-ph1'>DASTURLASHNI QULAY MUHITDA O‘RGANING</h1>
                 </div>
             </div>
             <div className="home-page-2">
                 {data.map((item, id) => (
-                    <div className='home-page-2-1' key={id}>
+                    <div data-aos="fade-down" className='home-page-2-1' key={id}>
                         <h1 className='home-page-2-1-1'>{item.h1}</h1>
                         <p>{item.write}</p>
                     </div>
                 ))}
                 <div className='home-page-2-or'>
                     {count.map((item, id) => (
-                        <div className='home-page-2-2' key={id}>
+                        <div data-aos="zoom-in" className='home-page-2-2' key={id}>
                             <img src={item.image} alt="" />
                             <h1>{item.write}</h1>
                             <p>{item.desc}</p>
@@ -62,7 +63,7 @@ function Home() {
                 </div>
             </div>
             <div className="home-page-3">
-                <div className="home-page-3-1">
+                <div data-aos="fade-right" className="home-page-3-1">
                     <p className='home-page-3-p1'>Biz haqimizda</p>
                     <h1>Sun'iy intellekt yordamida boshqariladigan ta'lim tizimi va zamonaviy atmosfera sizning muvaffaqiyatingiz garovidir.</h1>
                     <p className='home-page-3-p2'>Xorazimiy IT Akademiyasi nafaqat O'zbekistondagi, balki O'rta Osiyodagi birinchi va eng katta IT Akademiya bo'lib, bu yerda sun'iy intellekt yordamida ta'lim berishning innovatsion usuli yo'lga qo'yilgan. Zamonaviy texnologiyalar, 24/7 ishlaydigan o'quv kampusi, mingga yaqing iMac'lar va qulay sharoitlar sizga haqiqiy dasturchi bo'lib yetishish imkonini beradi.</p>
@@ -76,7 +77,6 @@ function Home() {
                 </div>
             </div>
             <div className="home-page-4">
-                
             </div>
         </div>
     )
