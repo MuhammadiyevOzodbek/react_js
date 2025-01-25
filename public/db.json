@@ -116,19 +116,19 @@
     "homePageSix": [
         {
             "id": 1,
-            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%201.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDEucG5nIiwiaWF0IjoxNzM3ODIzMjk0LCJleHAiOjE3NjkzNTkyOTR9.uNfXLiKEJ0RMFOklBMJtFFoZ-ltuHma9970chaz7gWA&t=2025-01-25T16%3A41%3A33.367Z",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%201.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDEucG5nIiwiaWF0IjoxNzM3ODIzMjk0LCJleHAiOjE3NjkzNTkyOTR9.uNfXLiKEJ0RMFOklBMJtFFoZ-ltuHma9970chaz7gWA&t=2025-01-25T16%3A41%3A33.367Z",
             "name": "Ozodbekov Sarvar",
             "desc": "C# .Net Backend Developer"
         },
         {
             "id": 2,
-            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%202.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDIucG5nIiwiaWF0IjoxNzM3ODIzMzIwLCJleHAiOjE3NjkzNTkzMjB9.-SlyBintTA6TH7pzYJGAl38hdee750HNvgZ4r80dH-w&t=2025-01-25T16%3A42%3A00.301Z",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%202.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDIucG5nIiwiaWF0IjoxNzM3ODIzMzIwLCJleHAiOjE3NjkzNTkzMjB9.-SlyBintTA6TH7pzYJGAl38hdee750HNvgZ4r80dH-w&t=2025-01-25T16%3A42%3A00.301Z",
             "name": "Anvarov Baxtibek",
             "desc": "Node.Js Backend Developer"
         },
         {
             "id": 3,
-            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yLnBuZyIsImlhdCI6MTczNzgyMzM0MSwiZXhwIjoxNzY5MzU5MzQxfQ.C_6xXGWY3zhap14nCXywdlLyMpnjZ0hSZomew2OYztw&t=2025-01-25T16%3A42%3A20.564Z",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yLnBuZyIsImlhdCI6MTczNzgyMzM0MSwiZXhwIjoxNzY5MzU5MzQxfQ.C_6xXGWY3zhap14nCXywdlLyMpnjZ0hSZomew2OYztw&t=2025-01-25T16%3A42%3A20.564Z",
             "name": "Shomurodov Sarvar",
             "desc": "PHP (Laravel) Backend Developer"
         },

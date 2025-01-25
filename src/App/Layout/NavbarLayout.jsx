@@ -23,10 +23,10 @@ function NavbarLayout() {
       <nav className={scrolled ? "scroled" : ""}>
         <Link to={'/'}><img src={imgweb} alt="" /></Link>
         <ul>
-          <li><Link to={'/course'}>Kurslar</Link></li>
-          <li><Link to={'/about'}>About</Link></li>
-          <li><Link to={'/blog'}>Blog</Link></li>
-          <li><Link to={'/contact'}>Contact</Link></li>
+          <Link to={'/course'}><li>Kurslar<span></span></li></Link>
+          <Link to={'/about'}><li>About<span></span></li></Link>
+          <Link to={'/blog'}><li>Blog<span></span></li></Link>
+          <Link to={'/contact'}><li>Contact<span></span></li></Link>
         </ul>
         <Link to={'/dashboard'}><button>Log in</button></Link>
       </nav>

@@ -14,7 +14,7 @@ function Home() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3ODIzNTE4LCJleHAiOjE3Mzg0MjgzMTh9.TRA4nc3V8G8GGZ_xgBXaEpGxrvMteaP2-oaB9Cl9Tks&t=2025-01-25T16%3A45%3A18.645Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3ODI0MDg2LCJleHAiOjE3Mzg0Mjg4ODZ9.r1LjOuEEMwyUfO35rT_L-fxDM7AJp2wsnfkikweCISQ&t=2025-01-25T16%3A54%3A46.311Z")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
@@ -90,10 +90,14 @@ function Home() {
                             </div>
                         ))}
                     </div>
-                    <div className="home-page-4-2">
+                    <div data-aos="zoom-in-down" className="home-page-4-wrapper">
                             {iamge.map((item, id) => (
                                 <div className='home-page-4-image' key={id}>
                                     <img src={item.image} alt="" />
+                                    <div className='home-page-4-content'>
+                                        <h1>{item.name}</h1>
+                                        <p>{item.desc}</p>
+                                    </div>
                                 </div>
                             ))}
                     </div>
