@@ -99,6 +99,8 @@
     justify-content: space-around;
     align-items: center;
     .home-page-3-1{
+        display: grid;
+        gap: 10px;
         width: 400px;
         .home-page-3-p1{
             color: rgba(40, 156, 40, 0.521);
@@ -115,7 +117,9 @@
     .home-page-3-2{
         display: flex;
         align-items: center;
-        overflow-x: auto;
+        overflow-x: scroll;
+        cursor: pointer;
+        user-select: none;
         width: 900px;
         height: 600px;
         margin-top: 50px;
@@ -128,9 +132,9 @@
             height: 550px;
             object-fit: cover;
             border-radius: 25px;
-            transition: all 0.3s;
+            transition-duration: 200ms;
             &:hover{
-                transform: translateY(-17px);
+                transform: translateY(-20px);
             }
         }
     }

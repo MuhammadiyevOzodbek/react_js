@@ -101,6 +101,8 @@
   align-items: center;
 }
 .home-page-3 .home-page-3-1 {
+  display: grid;
+  gap: 10px;
   width: 400px;
 }
 .home-page-3 .home-page-3-1 .home-page-3-p1 {
@@ -117,7 +119,11 @@
 .home-page-3 .home-page-3-2 {
   display: flex;
   align-items: center;
-  overflow-x: auto;
+  overflow-x: scroll;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   width: 900px;
   height: 600px;
   margin-top: 50px;
@@ -132,8 +138,8 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
-  transition: all 0.3s;
+  transition-duration: 200ms;
 }
 .home-page-3 .home-page-3-2 img:hover {
-  transform: translateY(-17px);
+  transform: translateY(-20px);
 }/*# sourceMappingURL=HomeStyle.css.map */
