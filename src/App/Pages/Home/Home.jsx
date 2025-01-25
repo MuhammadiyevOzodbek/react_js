@@ -9,15 +9,19 @@ function Home() {
     const [count, setCount] = useState([])
     const [isdata, setIsData] = useState([])
     const [iscount, setIsCount] = useState([])
+    const [cont, setCont] = useState([])
+    const [iamge, setImage] = useState([])
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3NzM0OTE3LCJleHAiOjE3MzgzMzk3MTd9.e265WB3SqWgle9IhEs0htft27Vf__cbTeU51VEePSbg&t=2025-01-24T16%3A08%3A37.906Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3ODIzNTE4LCJleHAiOjE3Mzg0MjgzMTh9.TRA4nc3V8G8GGZ_xgBXaEpGxrvMteaP2-oaB9Cl9Tks&t=2025-01-25T16%3A45%3A18.645Z")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
                 setIsData(response.homePageThree)
                 setIsCount(response.homePageFour)
+                setCont(response.homePageFive)
+                setImage(response.homePageSix)
             } catch (error) {
                 console.error(`HTTPSda Xatolik bormi deymanda ${error}`)
             }
@@ -77,6 +81,22 @@ function Home() {
                 </div>
             </div>
             <div className="home-page-4">
+                    <div className="home-page-4-1">
+                        {cont.map((item, id) => (
+                            <div data-aos="zoom-out" key={id}>
+                                <p className="home-page-4-p1">{item.p}</p>
+                                <h1 className='home-page-4-h1'>{item.h1}</h1>
+                                <p className='home-page-4-p2'>{item.p1}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="home-page-4-2">
+                            {iamge.map((item, id) => (
+                                <div className='home-page-4-image' key={id}>
+                                    <img src={item.image} alt="" />
+                                </div>
+                            ))}
+                    </div>
             </div>
         </div>
     )

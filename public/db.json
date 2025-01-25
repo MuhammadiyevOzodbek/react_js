@@ -98,5 +98,45 @@
             "id": 9,
             "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/scroll/scroll%209.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9zY3JvbGwvc2Nyb2xsIDkucG5nIiwiaWF0IjoxNzM3NzMyNzkzLCJleHAiOjE3NjkyNjg3OTN9.wDTU2JwkqloiqMJF2AhGctNy8JQx8WX71aTAt_TW1EU&t=2025-01-24T15%3A33%3A12.465Z"
         }
+    ],
+    "homePageFive":[
+        {
+            "id": 1,
+            "p": "Bizning mentorlar"
+        },
+        {
+            "id": 2,
+            "h1": "Astrum IT Akademiyasida siz sifatli ta'lim olishingiz va sohani puxta egallashingiz uchun eng kuchli va katta tajribaga ega mentorlar yordam berishadi."
+        },
+        {
+            "id": 3,
+            "p1": "Mentor — sizda tug'ilgan savollarga javob beruvchi shaxs."
+        }
+    ],
+    "homePageSix": [
+        {
+            "id": 1,
+            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%201.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDEucG5nIiwiaWF0IjoxNzM3ODIzMjk0LCJleHAiOjE3NjkzNTkyOTR9.uNfXLiKEJ0RMFOklBMJtFFoZ-ltuHma9970chaz7gWA&t=2025-01-25T16%3A41%3A33.367Z",
+            "name": "Ozodbekov Sarvar",
+            "desc": "C# .Net Backend Developer"
+        },
+        {
+            "id": 2,
+            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%202.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDIucG5nIiwiaWF0IjoxNzM3ODIzMzIwLCJleHAiOjE3NjkzNTkzMjB9.-SlyBintTA6TH7pzYJGAl38hdee750HNvgZ4r80dH-w&t=2025-01-25T16%3A42%3A00.301Z",
+            "name": "Anvarov Baxtibek",
+            "desc": "Node.Js Backend Developer"
+        },
+        {
+            "id": 3,
+            "iamge": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yLnBuZyIsImlhdCI6MTczNzgyMzM0MSwiZXhwIjoxNzY5MzU5MzQxfQ.C_6xXGWY3zhap14nCXywdlLyMpnjZ0hSZomew2OYztw&t=2025-01-25T16%3A42%3A20.564Z",
+            "name": "Shomurodov Sarvar",
+            "desc": "PHP (Laravel) Backend Developer"
+        },
+        {
+            "id": 4,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%203.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDMucG5nIiwiaWF0IjoxNzM3ODIzMzc5LCJleHAiOjE3NjkzNTkzNzl9.BMMNJcrw2wZLIGMmOj3tb2Fl2WvGCInLaCNbcRqdxWw&t=2025-01-25T16%3A42%3A58.481Z",
+            "name": "Azizova Aziza",
+            "desc": "React.Js Frontend Developer"
+        }
     ]
 }
