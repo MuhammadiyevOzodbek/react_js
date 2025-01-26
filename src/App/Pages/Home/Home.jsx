@@ -11,10 +11,11 @@ function Home() {
     const [iscount, setIsCount] = useState([])
     const [cont, setCont] = useState([])
     const [iamge, setImage] = useState([])
+    const [marq, setMarq] = useState([])
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3ODI0MDg2LCJleHAiOjE3Mzg0Mjg4ODZ9.r1LjOuEEMwyUfO35rT_L-fxDM7AJp2wsnfkikweCISQ&t=2025-01-25T16%3A54%3A46.311Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3OTAxOTgxLCJleHAiOjE3Mzg1MDY3ODF9.fyzIfAyI4t4I7T7-dOe941dWDX6AWXmuJvJbeGgsDik&t=2025-01-26T14%3A33%3A02.093Z")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
@@ -22,6 +23,7 @@ function Home() {
                 setIsCount(response.homePageFour)
                 setCont(response.homePageFive)
                 setImage(response.homePageSix)
+                setMarq(response.homePageEight)
             } catch (error) {
                 console.error(`HTTPSda Xatolik bormi deymanda ${error}`)
             }
@@ -49,7 +51,7 @@ function Home() {
                 <div className='home-page-2-or'>
                     {count.map((item, id) => (
                         <div data-aos="zoom-in" className='home-page-2-2' key={id}>
-                            <img src={item.image} alt="" />
+                            <img src={item.image} alt={item.id} />
                             <h1>{item.write}</h1>
                             <p>{item.desc}</p>
                         </div>
@@ -60,7 +62,7 @@ function Home() {
                     <div className='home-page2-or1'>
                         {isdata.map((item, id) => (
                             <div className='card' key={id}>
-                                <img data-aos="flip-up" src={item.image} alt="" />
+                                <img data-aos="flip-up" src={item.image} alt={item.id} />
                             </div>
                         ))}
                     </div>
@@ -75,32 +77,41 @@ function Home() {
                 <div className="home-page-3-2">
                     {iscount.map((item, id) => (
                         <div className='fed' key={id}>
-                            <img data-aos='fade-down-left' src={item.image} alt="" />
+                            <img data-aos='fade-down-left' src={item.image} alt={item.id} />
                         </div>
                     ))}
                 </div>
             </div>
             <div className="home-page-4">
-                    <div className="home-page-4-1">
-                        {cont.map((item, id) => (
-                            <div data-aos="zoom-out" key={id}>
-                                <p className="home-page-4-p1">{item.p}</p>
-                                <h1 className='home-page-4-h1'>{item.h1}</h1>
-                                <p className='home-page-4-p2'>{item.p1}</p>
+                <div className="home-page-4-1">
+                    {cont.map((item, id) => (
+                        <div data-aos="zoom-out" key={id}>
+                            <p className="home-page-4-p1">{item.p}</p>
+                            <h1 className='home-page-4-h1'>{item.h1}</h1>
+                            <p className='home-page-4-p2'>{item.p1}</p>
+                        </div>
+                    ))}
+                </div>
+                <div data-aos="zoom-in-down" className="home-page-4-wrapper">
+                    {iamge.map((item, id) => (
+                        <div className='home-page-4-image' key={id}>
+                            <img src={item.image} alt={item.id} />
+                            <div className='home-page-4-content'>
+                                <h1>{item.name}</h1>
+                                <p>{item.desc}</p>
                             </div>
-                        ))}
-                    </div>
-                    <div data-aos="zoom-in-down" className="home-page-4-wrapper">
-                            {iamge.map((item, id) => (
-                                <div className='home-page-4-image' key={id}>
-                                    <img src={item.image} alt="" />
-                                    <div className='home-page-4-content'>
-                                        <h1>{item.name}</h1>
-                                        <p>{item.desc}</p>
-                                    </div>
-                                </div>
-                            ))}
-                    </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="home-page-5">
+                    {marq.map((item, id) => (
+                        <div className='home-page-5-desc' key={id}>
+                            <p className='home-page-5-p1'>{item.p1}</p>
+                            <h1 className='home-page-5-h1'>{item.h1}</h1>
+                            <p className='home-page-5-p2'>{item.p2}</p>
+                        </div>
+                    ))}
             </div>
         </div>
     )

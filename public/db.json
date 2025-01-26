@@ -99,7 +99,7 @@
             "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/scroll/scroll%209.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9zY3JvbGwvc2Nyb2xsIDkucG5nIiwiaWF0IjoxNzM3NzMyNzkzLCJleHAiOjE3NjkyNjg3OTN9.wDTU2JwkqloiqMJF2AhGctNy8JQx8WX71aTAt_TW1EU&t=2025-01-24T15%3A33%3A12.465Z"
         }
     ],
-    "homePageFive":[
+    "homePageFive": [
         {
             "id": 1,
             "p": "Bizning mentorlar"
@@ -137,6 +137,46 @@
             "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/mentor/mentor%203.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9tZW50b3IvbWVudG9yIDMucG5nIiwiaWF0IjoxNzM3ODIzMzc5LCJleHAiOjE3NjkzNTkzNzl9.BMMNJcrw2wZLIGMmOj3tb2Fl2WvGCInLaCNbcRqdxWw&t=2025-01-25T16%3A42%3A58.481Z",
             "name": "Azizova Aziza",
             "desc": "React.Js Frontend Developer"
+        }
+    ],
+    "homePageSeven": [
+        {
+            "id": 1,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peS5zdmciLCJpYXQiOjE3Mzc4ODA0MDAsImV4cCI6MTc2OTQxNjQwMH0.gJ5gX44mIy4vLoBGSf91jJS32IJFdzVvJAfWQY76a1g&t=2025-01-26T08%3A33%3A20.229Z"
+        },
+        {
+            "id": 2,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy%201.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peSAxLnBuZyIsImlhdCI6MTczNzg4MDQzMiwiZXhwIjoxNzY5NDE2NDMyfQ.fgAKT0jifdcM6YkUJSGpnAFk1jmjDGqyvt94OITcsYI&t=2025-01-26T08%3A33%3A52.239Z"
+        },
+        {
+            "id": 3,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy%202.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peSAyLnN2ZyIsImlhdCI6MTczNzg4MDQ2MCwiZXhwIjoxNzY5NDE2NDYwfQ.SID8oL0Nty2kmh7ZWBpfzdl-diNBdeeu5EfqTBthm7c&t=2025-01-26T08%3A34%3A20.551Z"
+        },
+        {
+            "id": 4,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy%203.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peSAzLnN2ZyIsImlhdCI6MTczNzg4MDUwNCwiZXhwIjoxNzY5NDE2NTA0fQ.bJMOBm52MUP6HAkx741U2s7ubDUhd8p4P-QOL9rfH8g&t=2025-01-26T08%3A35%3A04.349Z"
+        },
+        {
+            "id": 5,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy%204.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peSA0LnN2ZyIsImlhdCI6MTczNzg4MDUzMywiZXhwIjoxNzY5NDE2NTMzfQ.7JNJoyLrSRvnKrKksPDYS0nY5l8Y-0Na1JpTYDKGxj4&t=2025-01-26T08%3A35%3A33.118Z"
+        },
+        {
+            "id": 6,
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/homiy/homiy%205.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9ob21peS9ob21peSA1LnN2ZyIsImlhdCI6MTczNzg4MDU2MSwiZXhwIjoxNzY5NDE2NTYxfQ.Mff8KxhPN1ebPjzDMYb0s_3xUwHc5siaRneKVlfVmv4&t=2025-01-26T08%3A36%3A01.510Z"
+        }
+    ],
+    "homePageEight": [
+        {
+            "id": 1,
+            "p1": "Ta'lim va kurslar"
+        },
+        {
+            "id": 2,
+            "h1": "IT sohasini Xorazimiy IT Akademiyasida o'rganing va o'z hayotingizni yaxshi tomonga o'zgartiring"
+        },
+        {
+            "id": 3,
+            "p2": "Akademiyamizda dasturlash kurslari sun'iy intellekt yordami shunday tizimlashtirilganki, o'qishni tugatishingiz bilan siz yetarlicha bilim va yaxshigina portfolioga ega bo'lasiz."
         }
     ]
 }

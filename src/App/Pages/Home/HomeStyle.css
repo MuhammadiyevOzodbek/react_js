@@ -220,4 +220,22 @@
 }
 .home-page-4 .home-page-4-wrapper .home-page-4-image .home-page-4-content:hover > * {
   transform: translateY(0px);
+}
+
+.home-page-5 {
+  margin-top: 50px;
+}
+.home-page-5 .home-page-5-desc {
+  width: 1300px;
+  margin: auto;
+}
+.home-page-5 .home-page-5-desc .home-page-5-p1 {
+  color: rgba(40, 156, 40, 0.521);
+  font-weight: 700;
+}
+.home-page-5 .home-page-5-desc .home-page-5-h1 {
+  font-weight: 700;
+}
+.home-page-5 .home-page-5-desc .home-page-5-p2 {
+  font-weight: 500;
 }/*# sourceMappingURL=HomeStyle.css.map */
