@@ -4,6 +4,9 @@ import homePageWrap from '../../../../public/iconDoc/Doc icon.png'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 import { Link } from 'react-router-dom'
+import react from '../../../../public/img/react.png'
+import cyber from '../../../../public/img/cyber.png'
+import python from '../../../../public/img/python.png'
 function Home() {
     const [data, setData] = useState([])
     const [count, setCount] = useState([])
@@ -12,10 +15,13 @@ function Home() {
     const [cont, setCont] = useState([])
     const [iamge, setImage] = useState([])
     const [marq, setMarq] = useState([])
+    const [map, setMap] = useState([])
+    const [ismap, setIsMap] = useState([])
+    const [homepage, setHomePage] = useState([])
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3OTAxOTgxLCJleHAiOjE3Mzg1MDY3ODF9.fyzIfAyI4t4I7T7-dOe941dWDX6AWXmuJvJbeGgsDik&t=2025-01-26T14%3A33%3A02.093Z")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3OTk0MTYzLCJleHAiOjE3Mzg1OTg5NjN9.gFCJ_x4u5pv3pgtmQstwmLwNKJXTq-UW-yu5sEUxtwI")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
@@ -24,6 +30,9 @@ function Home() {
                 setCont(response.homePageFive)
                 setImage(response.homePageSix)
                 setMarq(response.homePageEight)
+                setMap(response.homePageNine)
+                setIsMap(response.homePageTen)
+                setHomePage(response.homePageTwenty)
             } catch (error) {
                 console.error(`HTTPSda Xatolik bormi deymanda ${error}`)
             }
@@ -104,14 +113,81 @@ function Home() {
                     ))}
                 </div>
             </div>
-            <div className="home-page-5">
-                    {marq.map((item, id) => (
-                        <div className='home-page-5-desc' key={id}>
-                            <p className='home-page-5-p1'>{item.p1}</p>
-                            <h1 className='home-page-5-h1'>{item.h1}</h1>
-                            <p className='home-page-5-p2'>{item.p2}</p>
+            <div className="home-page-7">
+                <div className='home-page-7-h1'>
+                    {ismap.map((item, id) => (
+                        <div data-aos="fade-down-right" className='home-page-7-h' key={id}>
+                            <p>{item.p1}</p>
+                            <h1>{item.h1}</h1>
                         </div>
                     ))}
+                </div>
+                <div className='home-page-7-p'>
+                    {homepage.map((item, id) => (
+                        <div data-aos="flip-down" className='home-page-7-p1' key={id}>
+                            <h3>{item.h1}</h3>
+                            <p>{item.p}</p>
+                        </div>
+                    ))}
+                </div>
+            </div>
+            <div className="home-page-5">
+                {marq.map((item, id) => (
+                    <div data-aos="zoom-in-down" className='home-page-5-desc' key={id}>
+                        <p className='home-page-5-p1'>{item.p1}</p>
+                        <h1 className='home-page-5-h1'>{item.h1}</h1>
+                        <p className='home-page-5-p2'>{item.p2}</p>
+                    </div>
+                ))}
+                <div data-aos="zoom-in-up" className='home-page-5-course'>
+                    <div className="home-page-5-child">
+                        <img src={react} alt="react" />
+                        <div className="home-page-5-ch">
+                            <h1>React.js Frontend Developer</h1>
+                            <p>Ushbu kurs tajribali veb-dasturchi bo'lish uchun to'liq qo'llanmadir. Unda React dasturchisi sifatida ishlashda bilishingiz kerak bo'lgan barcha vositalar va texnologiyalar mavjud.</p>
+                            <button style={{marginTop: '46px'}}>Batafsil</button>
+                        </div>
+                    </div>
+                    <div className="home-page-5-child">
+                        <img src={cyber} alt="cyber" />
+                        <div className="home-page-5-ch">
+                            <h1>Cybersecurity</h1>
+                            <p>Ilg'or xakerlar, trekerlar, zararli dasturlar, nol kunlar, ekspluatatsiya to'plamlari, kiberjinoyatchilar va boshqalarni o'z ichiga olgan barcha onlayn tahdidlarga qarshi kurashish bo'yicha amaliy ko'nikmalarni o'rganing.</p>
+                            <button style={{marginTop: '69px'}}>Batafsil</button>
+                        </div>
+                    </div>
+                    <div className="home-page-5-child">
+                        <img src={python} alt="python" />
+                        <div className="home-page-5-ch">
+                            <h1>Python Django Backend Developer</h1>
+                            <p>Noldan qurish Python Django - bu pragmatik va toza dizaynga ega yuqori darajadagi, yuqori darajada xavfsiz va kengaytiriladigan ilovalarni yaratish uchun butun dunyo bo'ylab foydalaniladigan server tomonidagi veb-ramka.</p>
+                            <button>Batafsil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="home-page-contact">
+                
+            </div>
+            <div data-aos="zoom-out-down" className="home-page-6-map">
+                {map.map((item, id) => (
+                    <div className='home-page-6-div' key={id}>
+                        <p>{item.p1}</p>
+                        <h1>{item.h1}</h1>
+                        <p>{item.p2}</p>
+                    </div>
+                ))}
+                <iframe
+                    data-aos="zoom-in-down"
+                    classname="container"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.986343472687!2d66.8917442414155!3d39.1175568037973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4cbb686357ed39%3A0xfd13d5677a926088!2sIqtidor%20IT%20Academy!5e0!3m2!1sru!2s!4v1737271603279!5m2!1sru!2s"
+                    width={'100%'}
+                    height={'400px'}
+                    style={{ border: 0, borderRadius: '15px' }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                />
             </div>
         </div>
     )

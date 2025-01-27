@@ -25,7 +25,6 @@ function NavbarLayout() {
         <ul>
           <Link to={'/course'}><li>Kurslar<span></span></li></Link>
           <Link to={'/about'}><li>About<span></span></li></Link>
-          <Link to={'/blog'}><li>Blog<span></span></li></Link>
           <Link to={'/contact'}><li>Contact<span></span></li></Link>
         </ul>
         <Link to={'/dashboard'}><button>Log in</button></Link>

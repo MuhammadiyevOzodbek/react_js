@@ -178,5 +178,61 @@
             "id": 3,
             "p2": "Akademiyamizda dasturlash kurslari sun'iy intellekt yordami shunday tizimlashtirilganki, o'qishni tugatishingiz bilan siz yetarlicha bilim va yaxshigina portfolioga ega bo'lasiz."
         }
+    ],
+    "homePageNine": [
+        {
+            "id": 1,
+            "p1": "Akademiya joylashuvi"
+        },
+        {
+            "id": 2,
+            "h1": "Buyuk g'oyalar eng yaxshi joylarda tug'iladi"
+        },
+        {
+            "id": 3,
+            "p2": "Biz esa sizga eng qulay lokatsiyani taqdim etamiz"
+        }
+    ],
+    "homePageTen": [
+        {
+            "id": 1,
+            "p1": "KURSLAR VA TA'LIM"
+        },
+        {
+            "id": 2,
+            "h1": "Nimaga ko'pchilik Xorazimiy IT Akademiyasini tanlaydi?"
+        }
+    ],
+    "homePageTwenty": [
+        {
+            "id": 1,
+            "h1": "Yuqori atmosfera",
+            "p": "Xorazimiy o'quv binosida Mac Valley joylashgan bo'lib, bu yerda mingdan ortiq iMac'lar mavjud. Siz xohlagan paytingiz ulardan foydalana olasiz."
+        },
+        {
+            "id": 2,
+            "h1": "Innovatsion ta'lim tizimi",
+            "p": "Xorazimiyda o'qituvchilar yo'q. Darslar sun'iy intellekt yordamida olib boriladi. Siz platformadagi darslarda qatnashishingiz va uyga vazifalarni yuklab borishingiz lozim. Savollarga esa professional mentorlarimiz javob berishadi"
+        },
+        {
+            "id": 3,
+            "h1": "QWASAR sertifikati",
+            "p": "O'qishni tugatganingizdan so'ng sizga Amerikaning Silikon vodiysida ishlash imkonini beruvchi QWASAR sertifikati topshiriladi. Bu sertifikat orqali Yevropa va Amerikaning nufuzli kompaniyalarida faoliyat olib borishingiz mumkin."
+        },
+        {
+            "id": 4,
+            "h1": "24/7 qo'riqlash tizimi",
+            "p": "Xorazimiy IT Akademiyasida to'laqonli xavfsizlik choralari ko'rilgan bo'lib, o'quv kampusi tun-u kun qo'riqlanadi. Bu esa o'quvchilarimizga o'zlari xohlagan payt Astrumga tashrif buyurish va darslarni davom ettirish imkoniyatini beradi."
+        },
+        {
+            "id": 5,
+            "h1": "Yaratilgan qulay sharoitlar",
+            "p": "Bu yerda dam olishingiz uchun sport maydonchalari, dam olish xonalari, qulay sharoitlarga ega xonalar, chill zone va katta hovli mavjud."
+        },
+        {
+            "id": 6,
+            "h1": "Darslarni tezroq yakunlash imkoniyati",
+            "p": "Darslar sun'iy intellekt yordamida o'tilishi hisobiga, siz darslarni tezroq ko'rishingiz va o'quv dasturini tezroq tugatib TOP dasturchilar safiga qo'shilishingiz mumkin."
+        }
     ]
 }
