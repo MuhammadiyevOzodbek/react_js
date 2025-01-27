@@ -124,7 +124,7 @@ function Home() {
                 </div>
                 <div className='home-page-7-p'>
                     {homepage.map((item, id) => (
-                        <div data-aos="flip-down" className='home-page-7-p1' key={id}>
+                        <div data-aos-duration="700" data-aos="flip-down" className='home-page-7-p1' key={id}>
                             <h3>{item.h1}</h3>
                             <p>{item.p}</p>
                         </div>
