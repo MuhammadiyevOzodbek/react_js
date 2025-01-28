@@ -234,5 +234,15 @@
             "h1": "Darslarni tezroq yakunlash imkoniyati",
             "p": "Darslar sun'iy intellekt yordamida o'tilishi hisobiga, siz darslarni tezroq ko'rishingiz va o'quv dasturini tezroq tugatib TOP dasturchilar safiga qo'shilishingiz mumkin."
         }
+    ],
+    "homePageTenty": [
+        {
+            "id": 1,
+            "h1": "Qo'shimcha ma'lumotlar olmoqchimisiz?"
+        },
+        {
+            "id": 2,
+            "p": "Siz bilan bog’lanishimiz uchun, o’z ma’lumotlaringizni qoldiring"
+        }
     ]
 }

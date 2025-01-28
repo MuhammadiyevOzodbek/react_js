@@ -18,10 +18,11 @@ function Home() {
     const [map, setMap] = useState([])
     const [ismap, setIsMap] = useState([])
     const [homepage, setHomePage] = useState([])
+    const [contact, setContact] = useState([])
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM3OTk0MTYzLCJleHAiOjE3Mzg1OTg5NjN9.gFCJ_x4u5pv3pgtmQstwmLwNKJXTq-UW-yu5sEUxtwI")
+                const request = await fetch("https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM4MDU3MTA5LCJleHAiOjE3Mzg2NjE5MDl9.y-_1JMnNJ_k_8I_fAC353VI06JZD9mkwEv7RhV2YPYY")
                 const response = await request.json()
                 setData(response.homePageOne)
                 setCount(response.homePageTwo)
@@ -33,6 +34,7 @@ function Home() {
                 setMap(response.homePageNine)
                 setIsMap(response.homePageTen)
                 setHomePage(response.homePageTwenty)
+                setContact(response.homePageTenty)
             } catch (error) {
                 console.error(`HTTPSda Xatolik bormi deymanda ${error}`)
             }
@@ -42,6 +44,55 @@ function Home() {
             duration: 600
         })
     }, [])
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState();
+    const [sendTrigger, setSendTrigger] = useState(false);
+
+    const telegramBotId = "7789924862:AAHjP8iHbS8A6lJKLFJa4RayOG9lkHl-kIw"; // Bot token
+    const chatId = 5481848326; // Chat ID
+
+    useEffect(() => {
+        if (!sendTrigger) return;
+
+        const sendTelegramMessage = async () => {
+            const formattedMessage = `Ismi: ${name}\nTel: ${email}`;
+
+            const payload = {
+                chat_id: chatId,
+                text: formattedMessage,
+            };
+
+            try {
+                const response = await fetch(`https://api.telegram.org/bot${telegramBotId}/sendMessage`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(payload),
+                });
+
+                if (response.ok) {
+                    console.log("Message sent successfully!");
+                    // Tozalash
+                    setName("");
+                    setEmail("");
+                } else {
+                    console.error("Failed to send message.");
+                }
+            } catch (error) {
+                console.error("Error: ", error);
+            } finally {
+                setSendTrigger(false);
+            }
+        };
+
+        sendTelegramMessage();
+    }, [sendTrigger, name, email]);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setSendTrigger(true);
+    };
     return (
         <div className="home-page">
             <div className='home-page-1'>
@@ -145,7 +196,7 @@ function Home() {
                         <div className="home-page-5-ch">
                             <h1>React.js Frontend Developer</h1>
                             <p>Ushbu kurs tajribali veb-dasturchi bo'lish uchun to'liq qo'llanmadir. Unda React dasturchisi sifatida ishlashda bilishingiz kerak bo'lgan barcha vositalar va texnologiyalar mavjud.</p>
-                            <button style={{marginTop: '46px'}}>Batafsil</button>
+                            <button style={{ marginTop: '46px' }}>Batafsil</button>
                         </div>
                     </div>
                     <div className="home-page-5-child">
@@ -153,7 +204,7 @@ function Home() {
                         <div className="home-page-5-ch">
                             <h1>Cybersecurity</h1>
                             <p>Ilg'or xakerlar, trekerlar, zararli dasturlar, nol kunlar, ekspluatatsiya to'plamlari, kiberjinoyatchilar va boshqalarni o'z ichiga olgan barcha onlayn tahdidlarga qarshi kurashish bo'yicha amaliy ko'nikmalarni o'rganing.</p>
-                            <button style={{marginTop: '69px'}}>Batafsil</button>
+                            <button style={{ marginTop: '69px' }}>Batafsil</button>
                         </div>
                     </div>
                     <div className="home-page-5-child">
@@ -166,12 +217,40 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="home-page-contact">
-                
+            <div data-aos="flip-right" className='home-page-contact'>
+                <div className='home-page-8'>
+                    {contact.map((item, id) => (
+                        <div key={id}>
+                            <h1>{item.h1}</h1>
+                            <p>{item.p}</p>
+                        </div>
+                    ))}
+                </div>
+                <form onSubmit={handleSubmit}>
+                    <input
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Ismingiz"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
+                    />
+                    <input
+                        type="number"
+                        name="number"
+                        id="number"
+                        placeholder="+998"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
+                </form>
+                    <input type="submit" value="Yuborish" id="btn" className='home-page-contact-btn' />
             </div>
-            <div data-aos="zoom-out-down" className="home-page-6-map">
+            <div className="home-page-6-map">
                 {map.map((item, id) => (
-                    <div className='home-page-6-div' key={id}>
+                    <div data-aos="zoom-out-down" className='home-page-6-div' key={id}>
                         <p>{item.p1}</p>
                         <h1>{item.h1}</h1>
                         <p>{item.p2}</p>
