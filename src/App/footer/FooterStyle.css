@@ -1,1 +1,93 @@
-/*# sourceMappingURL=FooterStyle.css.map */
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 25px;
+  margin-top: 50px;
+}
+.footer .footer-course h1 {
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+  width: 380px;
+  padding: 0px 0px 15px;
+}
+.footer .footer-course .footer-course-1 {
+  width: 360px;
+  margin-top: 15px;
+}
+.footer .footer-course .footer-course-1 p {
+  font-size: 18px;
+  padding: 13px 5px;
+  margin: 5px 0px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.footer .footer-course .footer-course-1 p:hover {
+  font-weight: 600;
+  color: rgb(0, 202, 0);
+  background-color: rgb(208, 208, 208);
+}
+.footer .footer-pages h1 {
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+  width: 380px;
+  padding: 0px 0px 15px;
+}
+.footer .footer-pages .footer-pages-1 {
+  width: 360px;
+  margin-top: 15px;
+}
+.footer .footer-pages .footer-pages-1 a {
+  text-decoration: none;
+  color: black;
+}
+.footer .footer-pages .footer-pages-1 p {
+  font-size: 20px;
+  padding: 13px 5px;
+  margin: 5px 0px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.footer .footer-pages .footer-pages-1 p:hover {
+  font-weight: 600;
+  color: rgb(0, 202, 0);
+  background-color: rgb(208, 208, 208);
+}
+.footer .footer-int h1 {
+  font-weight: 500;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+  width: 380px;
+  padding: 0px 0px 15px;
+}
+.footer .footer-int .footer-int-1 {
+  width: 360px;
+  margin-top: 15px;
+}
+.footer .footer-int .footer-int-1 a {
+  text-decoration: none;
+}
+.footer .footer-int .footer-int-1 article {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 13px 7px;
+}
+.footer .footer-int .footer-int-1 article img {
+  width: 30px;
+  height: 25px;
+  margin-right: 5px;
+}
+.footer .footer-int .footer-int-1 article p {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.1s;
+  color: black;
+}
+.footer .footer-int .footer-int-1 article:hover {
+  font-weight: 600;
+  color: rgb(0, 202, 0);
+  background-color: rgb(208, 208, 208);
+}/*# sourceMappingURL=FooterStyle.css.map */

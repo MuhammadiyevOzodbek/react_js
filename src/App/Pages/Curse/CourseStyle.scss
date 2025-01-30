@@ -1,0 +1,64 @@
+.course-page {
+    .course-page-1 {
+        width: 100%;
+        height: 725px;
+        background-image: url(/public/img/Background\ 4.png);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        .course-page-1d {
+            p {
+                font-size: 30px;
+                color: rgb(255, 255, 255);
+            }
+
+            h1 {
+                font-size: 50px;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+    .course-page-2{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1390px;
+        margin: auto;
+        .course-page-2d{
+            width: 400px;
+            margin-top: 70px;
+            img{
+                width: 400px;
+                height: 250px;
+                border-radius: 15px;
+            }
+            div{
+                h2{
+                    margin-top: 5px;
+                }
+                p{
+                    margin-top: 5px;
+                }
+                a{
+                    button{
+                        width: 150px;
+                        height: 50px;
+                        border-radius: 15px;
+                        border: none;
+                        color: white;
+                        font-weight: 600;
+                        font-size: 20px;
+                        background: linear-gradient(rgb(0, 190, 0), rgb(0, 255, 195)) ;
+                        cursor: pointer;
+                        user-select: none;
+                        margin-top: 15px;
+                        &:hover{
+                            &::before{
+                                background-color: rgb(0, 255, 195);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

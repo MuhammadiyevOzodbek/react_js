@@ -3,6 +3,8 @@ import './App.css'
 import NavbarLayout from './App/Layout/NavbarLayout'
 import NotPage from './App/NotFound/NotPage'
 import Home from './App/Pages/Home/Home'
+import Course from './App/Pages/Curse/Course'
+import CourseOne from './App/Pages/Curse/AllCourse/1/CourseOne'
 
 function App() {
   const routes = createBrowserRouter([
@@ -12,7 +14,19 @@ function App() {
       children: [
         {
           path: '/',
-          element: <Home/>
+          element: <Home/>,
+          children: [
+          ]
+        },
+        {
+          path: '/course',
+          element: <Course/>,
+          children: [
+          ]
+        },
+        {
+          path: '/course/1',
+          element: <CourseOne/>
         }
       ]
     },

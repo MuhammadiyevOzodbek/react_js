@@ -1,0 +1,99 @@
+.footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 25px;
+    margin-top: 50px;
+    .footer-course{
+        h1{
+            font-weight: 500;
+            font-size: 25px;
+            border-bottom: 2px solid gray;
+            width: 380px;
+            padding: 0px 0px 15px;
+        }
+        .footer-course-1{
+            width: 360px;
+            margin-top: 15px;
+            p{
+                font-size: 18px;
+                padding: 13px 5px;
+                margin: 5px 0px;
+                cursor: pointer;
+                transition: all 0.1s;
+                &:hover{
+                    font-weight: 600;
+                    color: rgb(0, 202, 0);
+                    background-color: rgb(208, 208, 208);
+                }
+            }
+        }
+    }
+    .footer-pages{
+        h1{
+            font-weight: 500;
+            font-size: 25px;
+            border-bottom: 2px solid gray;
+            width: 380px;
+            padding: 0px 0px 15px;
+        }
+        .footer-pages-1{
+            width: 360px;
+            margin-top: 15px;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            p{
+                font-size: 20px;
+                padding: 13px 5px;
+                margin: 5px 0px;
+                cursor: pointer;
+                transition: all 0.1s;
+                &:hover{
+                    font-weight: 600;
+                    color: rgb(0, 202, 0);
+                    background-color: rgb(208, 208, 208);
+                }
+            }
+        }
+    }
+    .footer-int{
+        h1{
+            font-weight: 500;
+            font-size: 25px;
+            border-bottom: 2px solid gray;
+            width: 380px;
+            padding: 0px 0px 15px;
+        }
+        .footer-int-1{
+            width: 360px;
+            margin-top: 15px;
+            a{
+                text-decoration: none;
+            }
+            article{
+                display: flex;
+                align-items: center;
+                margin: 5px 0px;
+                padding: 13px 7px;
+                img{
+                    width: 30px;
+                    height: 25px;
+                    margin-right: 5px;
+                }
+                p{
+                    font-size: 20px;
+                    cursor: pointer;
+                    transition: all 0.1s;
+                    color: black;
+                }
+                &:hover{
+                    font-weight: 600;
+                    color: rgb(0, 202, 0);
+                    background-color: rgb(208, 208, 208);
+                }
+            }
+        }
+    }
+}

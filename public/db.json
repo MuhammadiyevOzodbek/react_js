@@ -244,5 +244,292 @@
             "id": 2,
             "p": "Siz bilan bog’lanishimiz uchun, o’z ma’lumotlaringizni qoldiring"
         }
+    ],
+    "coursePageOne": [
+        {
+            "id": 1,
+            "h1": "O'zingizni bilim darajangizni oshiring va hayotingizni o'zgartiring"
+        },
+        {
+            "id": 2,
+            "p": "Bizning kurslarimiz sizga IT sohasini tajriba orqali o'rganishingizda yordam beradi."
+        }
+    ],
+    "coursePageTwo": [
+        {
+            "id": 1,
+            "write": "3D Max & Interior Design",
+            "desc": "3D interyer dizaynini ko'rsatish mijozlaringizga har bir detalni ko'rishga va yakuniy natijani tasavvur qilishga yordam beradi. 3D renderlash dasturi yordamida siz o'z dizayningizni mijozlaringizga etkazishingiz va real vaqtda tezroq o'zgartirishlar kiritishingiz mumkin, bu esa loyihaga vaqt va xarajatlarni tejash imkonini beradi.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/3dMax.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2UvM2RNYXgucG5nIiwiaWF0IjoxNzM4MTQ4MDk4LCJleHAiOjE3Njk2ODQwOTh9.svQhspVUyEARGNwlrsVSe4fkUuF5-6NV97aXTIiJB-8"
+        },
+        {
+            "id": 2,
+            "write": "React.js Frontend Developer",
+            "desc": "Ushbu kurs tajribali veb-dasturchi bo'lish uchun to'liq qo'llanmadir. Unda React dasturchisi sifatida ishlashda bilishingiz kerak bo'lgan barcha vositalar va texnologiyalar mavjud.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/react.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2UvcmVhY3QucG5nIiwiaWF0IjoxNzM4MTQ4NzY2LCJleHAiOjE3Njk2ODQ3NjZ9.6cB5gE50cUDsEtTULq0_6jteIGF9vnNhV7kFzgXSq-4"
+        },
+        {
+            "id": 3,
+            "write": "Cybersecurity",
+            "desc": "Ilg'or xakerlar, trekerlar, zararli dasturlar, nol kunlar, ekspluatatsiya to'plamlari, kiberjinoyatchilar va boshqalarni o'z ichiga olgan barcha onlayn tahdidlarga qarshi kurashish bo'yicha amaliy ko'nikmalarni o'rganing.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/cyber.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2UvY3liZXIucG5nIiwiaWF0IjoxNzM4MTU0NTYyLCJleHAiOjE3Njk2OTA1NjJ9.G6ZUozMa4lozmKnEMXhCXLT5-u8pvDW5-frtHUphkxE"
+        },
+        {
+            "id": 4,
+            "write": "Python Django Backend Developer",
+            "desc": "Noldan qurish Python Django - bu pragmatik va toza dizaynga ega yuqori darajadagi, yuqori darajada xavfsiz va kengaytiriladigan ilovalarni yaratish uchun butun dunyo bo'ylab foydalaniladigan server tomonidagi veb-ramka.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/python.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2UvcHl0aG9uLnBuZyIsImlhdCI6MTczODE0ODQyMSwiZXhwIjoxNzY5Njg0NDIxfQ.emNXyV8Tq6yvcaYt-1awAuet36H6p7BJLrtoST9LGBk"
+        },
+        {
+            "id": 5,
+            "write": "Node.js Backend Developer",
+            "desc": "Node.js dasturchilari odatda back-end komponentlarini ishlab chiqadilar, ilovani boshqa (koʻpincha uchinchi tomon) veb-xizmatlariga ulaydilar va oʻz ishlarini Node.js ilovasi bilan integratsiyalashgan holda front-end dasturchilarni qoʻllab-quvvatlaydi.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/node.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2Uvbm9kZS5wbmciLCJpYXQiOjE3MzgxNTQ1MzEsImV4cCI6MTc2OTY5MDUzMX0._a1a4kNhEPb8CUPfA4jgGbcbxboOOIrAlTgMKjjqzoM"
+        },
+        {
+            "id": 6,
+            "write": "C# .Net Backend Developer",
+            "desc": ".NET dasturchisi (“dot-net”) – C# dasturlash tilida (“c-sharp”) veb-ilovalarni yaratish uchun Microsoft .NET dasturiy platformasidan foydalanishga ixtisoslashgan server tomonidagi dasturchi.",
+            "image": "https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/course/Best-Web-Servers-for-PHP-Development.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9jb3Vyc2UvQmVzdC1XZWItU2VydmVycy1mb3ItUEhQLURldmVsb3BtZW50LnBuZyIsImlhdCI6MTczODE2NDI2OCwiZXhwIjoxNzY5NzAwMjY4fQ.9IwyGVeZjFbDRPgVk0JiAgTcKlhM3s2UAvB4_bvzCsM"
+        }
+    ],
+    "courseOneBir": [
+        {
+            "id": 1,
+            "p1": "Kurs haqida"
+        },
+        {
+            "id": 2,
+            "h1": "Dasturlash ko'nikmalaringizni qaytadan kashf qiling"
+        },
+        {
+            "id": 3,
+            "p2": "Bizning 3D Max & Interior Design kursimiz o'zida 8 oydan 12 oygacha bo'lgan vaqtni qamrab oladi. Siz bu vaqt mobaynida o'zingizga o'xshagan talabalar bilan dasturlash sirlarini o'rganasiz. Undan tashqari mashg'ulotlar vaqtida funksiomal web saytlar va dasturlash yaratishni o'zlashtirasiz. Ushbu bilimlar esa ish topish jarayonida kerak bo'ladigan eng muhim narsalardir."
+        }
+    ],
+    "courseOneIkki": [
+        {
+            "id": 1,
+            "p1": "O'QUV PROGRAMMASI"
+        },
+        {
+            "id": 2,
+            "h1": "3D Max & Interior Design dasturchi kursida siz quyidagilarni o'rganasiz!"
+        }
+    ],
+    "courseOneUch": [
+        {
+            "id": 1,
+            "write": "Bilim va ko'nikma",
+            "desc": "Mashhur dasturlash tillarini o'rganasiz va ularni amalda qo'llab ko'rasiz"
+        },
+        {
+            "id": 2,
+            "write": "Zamonaviy dasturlash tillari",
+            "desc": "Interior Design, Animation, 3D Rendering, 3D Design, 3D Computer Graphics, Corona, 3Ds Max Tutorial, Autodesk,"
+        },
+        {
+            "id": 3,
+            "write": "Analitika",
+            "desc": "Algoritmlarni bilish va dasturlarni qanday ishlashini analiz qila olish qobiliyati"
+        },
+        {
+            "id": 4,
+            "write": "Ishlab chiqish",
+            "desc": "Web-interfeyslar va ilovalarni ishlab chiqish, to'plamlar va ma'lumotlar bazalarini boshqarish, dasturlarni sinovdan o'tkazish va masshtablash."
+        },
+        {
+            "id": 5,
+            "write": "Tashkil qilish",
+            "desc": "Sayt yoki dastur xavfsizligi tizimini tashkil qilish"
+        },
+        {
+            "id": 6,
+            "write": "Taqdimot ko'nikmalar",
+            "desc": "Soft skills'ga ega bo'lish va ingliz tilidagi suhbatga tayyor bo'lish o'zingizni va mahsulotingizni taqdim eta olish qobiliyati."
+        }
+    ],
+    "courseOneTurt": [
+        {
+            "id": 1,
+            "p": "3D Max & Interior Design"
+        },
+        {
+            "id": 2,
+            "write": "Amaliyot orqali dasturlashni o'rganing",
+            "desc": "Bizning IT Akademiyamiz sizni 100% bajarib o'rganadigan amaliy o'quv dasturi orqali dasturlashni bosqichma-bosqich o'tkazish uchun mo'ljallangan."
+        },
+        {
+            "id": 3,
+            "write": "Har hafta dasturlash mahoratingizni oshirib boring",
+            "desc": "Har hafta Backend dasturchi bo'yicha o'quv kursimiz davomida sizdan turli dasturlash tillari bilan ishlash, veb-saytlar, mobil ilovalar va dasturlar yaratish bo'yicha yangi ko'nikmalarni o'rganishingiz mumkin."
+        },
+        {
+            "id": 4,
+            "write": "8-12 oylik kurs rejasi",
+            "desc": "Bizning ta'lim kursimiz 8 oydan 12 oygacha davom etuvchi qiziqarli darslardan iborat. Siz o'zingiz xohlagan paytingiz Astrumga kelasiz va xohlagancha dars qila olasiz bu sizga dasturlash tillarini yaxshiroq tushunish va o'rganish imkonini beradi."
+        }
+    ],
+    "courseOneBesh": [
+        {
+            "id": 1,
+            "p": "Dasturchilarning ish qurollari",
+            "h1": "Noldan professionalgacha",
+            "p1": "Bizning o'quv kurslarimiz eng so'nggi dasturlash vositalariga asoslangan bo'lib, o'tgan o'n yilliklar davomida o'quvchilarga o'rgatilgan kurs o'tish usullaridan farqli o'laroq, biz dasturchi o'z karyerasini qurishi va chuqur bilim olishi uchun eng so'nggi texnologiyalar va kuchli o'qitish tizimi muhim deb hisoblaymiz."
+        }
+    ],
+    "courseTwoBir": [
+        {
+            "id": 1,
+            "p": "Kurs haqida",
+            "h1": "Dasturlash ko'nikmalaringizni qaytadan kashf qiling",
+            "desc": "Bizning React.js Frontend Developer kursimiz o'zida 8 oydan 12 oygacha bo'lgan vaqtni qamrab oladi. Siz bu vaqt mobaynida o'zingizga o'xshagan talabalar bilan dasturlash sirlarini o'rganasiz. Undan tashqari mashg'ulotlar vaqtida funksiomal web saytlar va dasturlash yaratishni o'zlashtirasiz. Ushbu bilimlar esa ish topish jarayonida kerak bo'ladigan eng muhim narsalardir."
+        }
+    ],
+    "courseTwoIkki": [
+        {
+            "id": 1,
+            "p": "O'QUV PROGRAMMASI",
+            "h1": "React.js Frontend Developer dasturchi kursida siz quyidagilarni o'rganasiz:"
+        },
+        {
+            "id": 2,
+            "write": "Bilim va ko'nikma",
+            "desc": "Mashhur dasturlash tillarini o'rganasiz va ularni amalda qo'llab ko'rasiz"
+        },
+        {
+            "id": 3,
+            "write": "Zamonaviy dasturlash tillari",
+            "desc": "JavaScript, OOP, MUI, React Bootstrap, TailwindCSS, SPA, API, TypeScript, Redux, RTK Query, Redux debugger, Next.js, ORM, Docker, Docker-compose,"
+        },
+        {
+            "id": 4,
+            "write": "Analitika",
+            "desc": "Algoritmlarni bilish va dasturlarni qanday ishlashini analiz qila olish qobiliyati"
+        },
+        {
+            "id": 5,
+            "write": "Ishlab chiqish",
+            "desc": "Web-interfeyslar va ilovalarni ishlab chiqish, to'plamlar va ma'lumotlar bazalarini boshqarish, dasturlarni sinovdan o'tkazish va masshtablash."
+        },
+        {
+            "id": 6,
+            "write": "Tashkil qilish",
+            "desc": "Sayt yoki dastur xavfsizligi tizimini tashkil qilish"
+        },
+        {
+            "id": 7,
+            "write": "Taqdimot ko'nikmalar",
+            "desc": "Soft skills'ga ega bo'lish va ingliz tilidagi suhbatga tayyor bo'lish o'zingizni va mahsulotingizni taqdim eta olish qobiliyati."
+        }
+    ],
+    "courseTwoUch": [
+        {
+            "id": 1,
+            "p": "React.js Frontend Developer"
+        },
+        {
+            "id": 2,
+            "write": "Amaliyot orqali dasturlashni o'rganing",
+            "desc": "Bizning IT Akademiyamiz sizni 100% bajarib o'rganadigan amaliy o'quv dasturi orqali dasturlashni bosqichma-bosqich o'tkazish uchun mo'ljallangan."
+        },
+        {
+            "id": 3,
+            "write": "Har hafta dasturlash mahoratingizni oshirib boring",
+            "desc": "Har hafta Backend dasturchi bo'yicha o'quv kursimiz davomida sizdan turli dasturlash tillari bilan ishlash, veb-saytlar, mobil ilovalar va dasturlar yaratish bo'yicha yangi ko'nikmalarni o'rganishingiz mumkin."
+        },
+        {
+            "id": 4,
+            "write": "8-12 oylik kurs rejasi",
+            "desc": "Bizning ta'lim kursimiz 8 oydan 12 oygacha davom etuvchi qiziqarli darslardan iborat. Siz o'zingiz xohlagan paytingiz Astrumga kelasiz va xohlagancha dars qila olasiz bu sizga dasturlash tillarini yaxshiroq tushunish va o'rganish imkonini beradi."
+        }
+    ],
+    "courseTwoTurt": [
+        {
+            "id": 1,
+            "p": "Dasturchilarning ish qurollari"
+        },
+        {
+            "id": 2,
+            "write": "Noldan professionalgacha",
+            "desc": "Bizning o'quv kurslarimiz eng so'nggi dasturlash vositalariga asoslangan bo'lib, o'tgan o'n yilliklar davomida o'quvchilarga o'rgatilgan kurs o'tish usullaridan farqli o'laroq, biz dasturchi o'z karyerasini qurishi va chuqur bilim olishi uchun eng so'nggi texnologiyalar va kuchli o'qitish tizimi muhim deb hisoblaymiz."
+        }
+    ],
+    "courseThereBir": [
+        {
+            "id": 1,
+            "p": "Kurs haqida",
+            "h1": "Dasturlash ko'nikmalaringizni qaytadan kashf qiling",
+            "p1": "Bizning Python Django Backend Developer kursimiz o'zida 8 oydan 12 oygacha bo'lgan vaqtni qamrab oladi. Siz bu vaqt mobaynida o'zingizga o'xshagan talabalar bilan dasturlash sirlarini o'rganasiz. Undan tashqari mashg'ulotlar vaqtida funksiomal web saytlar va dasturlash yaratishni o'zlashtirasiz. Ushbu bilimlar esa ish topish jarayonida kerak bo'ladigan eng muhim narsalardir."
+        }
+    ],
+    "corseThereIkki": [
+        {
+            "id": 1,
+            "p": "O'QUV PROGRAMMASI",
+            "h1": "Python Django Backend Developer dasturchi kursida siz quyidagilarni o'rganasiz"
+        },
+        {
+            "id": 2,
+            "write": "Bilim va ko'nikma",
+            "desc": "Mashhur dasturlash tillarini o'rganasiz va ularni amalda qo'llab ko'rasiz"
+        },
+        {
+            "id": 3,
+            "write": "Zamonaviy dasturlash tillari",
+            "desc": "Python, OOP, MVT, Django, SOLID, PostgreSQL, ORM, SQL, Unit testing, RESTful, Swagger, Payme, Click, Web Socket, Docker, Docker-compose,"
+        },
+        {
+            "id": 4,
+            "write": "Analitika",
+            "desc": "Algoritmlarni bilish va dasturlarni qanday ishlashini analiz qila olish qobiliyati"
+        },
+        {
+            "id": 5,
+            "write": "Ishlab chiqish",
+            "desc": "Web-interfeyslar va ilovalarni ishlab chiqish, to'plamlar va ma'lumotlar bazalarini boshqarish, dasturlarni sinovdan o'tkazish va masshtablash."
+        },
+        {
+            "id": 6,
+            "write": "Tashkil qilish",
+            "desc": "Sayt yoki dastur xavfsizligi tizimini tashkil qilish"
+        },
+        {
+            "id": 7,
+            "write": "Taqdimot ko'nikmalar",
+            "desc": "Soft skills'ga ega bo'lish va ingliz tilidagi suhbatga tayyor bo'lish o'zingizni va mahsulotingizni taqdim eta olish qobiliyati."
+        }
+    ],
+    "courseThereUch": [
+        {
+            "id": 1,
+            "p": "Python Django Backend Developer"
+        },
+        {
+            "id": 2,
+            "write": "Amaliyot orqali dasturlashni o'rganing",
+            "desc": "Bizning IT Akademiyamiz sizni 100% bajarib o'rganadigan amaliy o'quv dasturi orqali dasturlashni bosqichma-bosqich o'tkazish uchun mo'ljallangan."
+        },
+        {
+            "id": 3,
+            "write": "Har hafta dasturlash mahoratingizni oshirib boring",
+            "desc": "Har hafta Backend dasturchi bo'yicha o'quv kursimiz davomida sizdan turli dasturlash tillari bilan ishlash, veb-saytlar, mobil ilovalar va dasturlar yaratish bo'yicha yangi ko'nikmalarni o'rganishingiz mumkin."
+        },
+        {
+            "id": 4,
+            "write": "8-12 oylik kurs rejasi",
+            "desc": "Bizning ta'lim kursimiz 8 oydan 12 oygacha davom etuvchi qiziqarli darslardan iborat. Siz o'zingiz xohlagan paytingiz Astrumga kelasiz va xohlagancha dars qila olasiz bu sizga dasturlash tillarini yaxshiroq tushunish va o'rganish imkonini beradi."
+        }
+    ],
+    "courseThereTurt": [
+        {
+            "id": 1,
+            "p": "Dasturchilarning ish qurollari"
+        },
+        {
+            "id": 2,
+            "h1": "Noldan professionalgacha",
+            "p1": "Bizning o'quv kurslarimiz eng so'nggi dasturlash vositalariga asoslangan bo'lib, o'tgan o'n yilliklar davomida o'quvchilarga o'rgatilgan kurs o'tish usullaridan farqli o'laroq, biz dasturchi o'z karyerasini qurishi va chuqur bilim olishi uchun eng so'nggi texnologiyalar va kuchli o'qitish tizimi muhim deb hisoblaymiz."
+        }
     ]
 }

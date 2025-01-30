@@ -1,0 +1,13 @@
+.id-1 .id-one-1 {
+  width: 100%;
+  height: 725px;
+  background-image: url(/public/img/image\ 1.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.id-1 .id-one-1 h1 {
+  color: rgb(255, 51, 0);
+  font-size: 70px;
+  cursor: pointer;
+}/*# sourceMappingURL=OneStyle.css.map */
