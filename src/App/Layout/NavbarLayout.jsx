@@ -30,7 +30,7 @@ function NavbarLayout() {
           <Link to={'/news'}><li>News<span></span></li></Link>
           <Link to={'/contact'}><li>Contact<span></span></li></Link>
         </ul>
-        <Link to={'/dashboard'}><button>Log in</button></Link>
+        <Link to={'/log_in'}><button>Log in</button></Link>
       </nav>
       <main>
         <Outlet />

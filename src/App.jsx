@@ -5,6 +5,7 @@ import NotPage from './App/NotFound/NotPage'
 import Home from './App/Pages/Home/Home'
 import Course from './App/Pages/Curse/Course'
 import CourseOne from './App/Pages/Curse/AllCourse/1/CourseOne'
+import LogIn from './App/Log/LogIn'
 
 function App() {
   const routes = createBrowserRouter([
@@ -29,6 +30,10 @@ function App() {
           element: <CourseOne/>
         }
       ]
+    },
+    {
+      path: '/log_in',
+      element: <LogIn/>
     },
     {
       path: '*',
