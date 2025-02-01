@@ -3,7 +3,8 @@ import { Link, Outlet } from 'react-router-dom'
 import './LayoutStyle.css'
 import imgweb from '../../../public/iconDoc/nav icon.png'
 import Footer from '../footer/Footer'
-function NavbarLayout() {
+
+function NavbarLayout({ showButton, onButtonClick }) {
   const [scrolled, setScrolled] = useState(false)
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +20,19 @@ function NavbarLayout() {
 
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
+  const [darkMode, setDarkMode] = useState(() => {
+    return localStorage.getItem("theme") === "dark";
+  });
+
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("theme", "light");
+    }
+  }, [darkMode]);
   return (
     <div>
       <nav className={scrolled ? "scroled" : ""}>
@@ -26,16 +40,16 @@ function NavbarLayout() {
         <ul>
           <Link to={'/'}><li>Home<span></span></li></Link>
           <Link to={'/course'}><li>Kurslar<span></span></li></Link>
-          <Link to={'/about'}><li>About<span></span></li></Link>
-          <Link to={'/news'}><li>News<span></span></li></Link>
+          <Link to={'/dashboard'}><li>Dashboard</li></Link>
           <Link to={'/contact'}><li>Contact<span></span></li></Link>
         </ul>
-        <Link to={'/log_in'}><button>Log in</button></Link>
+        <button onClick={() => setDarkMode(!darkMode)}>{darkMode ? "Light Mode" : "Dark Mode"}</button>
+        <Link to={'/sing_in'}><button>sing in</button></Link>
       </nav>
       <main>
         <Outlet />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   )
 }

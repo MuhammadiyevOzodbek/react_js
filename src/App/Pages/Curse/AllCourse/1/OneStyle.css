@@ -6,8 +6,150 @@
   justify-content: center;
   align-items: center;
 }
-.id-1 .id-one-1 h1 {
-  color: rgb(255, 51, 0);
-  font-size: 70px;
+.id-1 .id-two {
+  width: 767px;
+}
+.id-1 .id-two .id-two-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+.id-1 .id-two .id-two-art input {
+  width: 650px;
+  height: 50px;
+  font-size: 23px;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+}
+.id-1 .id-two .id-two-art button {
+  width: 70px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 600;
   cursor: pointer;
+  background-color: white;
+  border: none;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  transition: all 0.1s;
+}
+.id-1 .id-two .id-two-art button:hover {
+  background-color: rgb(215, 215, 215);
+}
+.id-1 .id-two .id-two-1 {
+  padding: 0px 15px;
+  overflow-y: scroll;
+  height: 1000px;
+}
+.id-1 .id-two .id-two-1::-webkit-scrollbar {
+  display: none;
+}
+.id-1 .id-two .id-two-1 p {
+  font-size: 18px;
+  width: 720px;
+  padding: 7px 5px;
+  height: auto;
+  margin: 7px 0px;
+  word-wrap: break-word;
+}
+.id-1 .id-two .id-two-1 p:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.id-all {
+  display: flex;
+  justify-content: space-between;
+}
+.id-all .id-three {
+  width: 720px;
+}
+.id-all .id-three .id-three-2:nth-child(1) {
+  color: rgba(48, 159, 0, 0.689);
+  font-size: 20px;
+  font-weight: 700;
+}
+.id-all .id-three .id-three-3 {
+  margin-top: 20px;
+}
+.id-all .id-three .id-three-3 p {
+  font-size: 19px;
+  font-weight: 700;
+  color: rgba(48, 159, 0, 0.689);
+}
+.id-all .id-three .id-three-3 .id-three-4 p {
+  font-size: 13px;
+  color: rgb(90, 90, 90);
+  font-weight: 500;
+}
+.id-all .id-three .id-three-5 .sup-p {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(48, 159, 0, 0.689);
+}
+.id-all .id-three .id-one-contact h1 {
+  text-align: center;
+  color: rgba(48, 159, 0, 0.689);
+  margin-bottom: 15px;
+}
+.id-all .id-three .id-one-contact form {
+  text-align: center;
+}
+.id-all .id-three .id-one-contact form .id1-contact-t {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  font-size: 17px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-right: 15px;
+  color: white;
+  background-image: url(/public/img/1252483.png);
+}
+.id-all .id-three .id-one-contact form .id1-contact-t::-moz-placeholder {
+  color: rgb(209, 209, 209);
+}
+.id-all .id-three .id-one-contact form .id1-contact-t::placeholder {
+  color: rgb(209, 209, 209);
+}
+.id-all .id-three .id-one-contact form .id1-contact-n {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  font-size: 17px;
+  padding: 0px 5px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  background-image: url(/public/img/1252483.png);
+}
+.id-all .id-three .id-one-contact form .id1-contact-n::-webkit-inner-spin-button, .id-all .id-three .id-one-contact form .id1-contact-n::-webkit-outer-spin-button {
+  display: none;
+}
+.id-all .id-three .id-one-contact form .id1-contact-n::-moz-placeholder {
+  color: rgb(208, 208, 208);
+}
+.id-all .id-three .id-one-contact form .id1-contact-n::placeholder {
+  color: rgb(208, 208, 208);
+}
+.id-all .id-three .id-one-contact .id-one-contact {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  left: 285px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-image: url(/public/img/1252483.png);
+  cursor: pointer;
+  background-size: 600px;
 }/*# sourceMappingURL=OneStyle.css.map */

@@ -393,6 +393,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 600;
   color: rgb(255, 255, 255);
   transition: all 0.7s;
+  cursor: pointer;
 }
 .home-page-contact .home-page-contact-btn:hover {
   color: rgb(0, 145, 29);

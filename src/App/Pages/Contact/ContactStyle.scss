@@ -1,0 +1,61 @@
+.contact{
+    .contact-model{
+        width: 100%;
+        height: 100vh;
+        background-image: url(/public/img/contact\ us.png);
+        background-size: cover;
+    }
+    .contact-1{
+        text-align: center;
+        width: 100%;
+        height: 350px;
+        h1{
+            padding: 60px 0px 0px;
+            color: rgba(0, 160, 115, 0.7);
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        form{
+            input{
+                user-select: none;
+                outline: none;
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button{
+                    display: none;
+                }
+            }
+            .contact-text{
+                width: 200px;
+                height: 45px;
+                border-radius: 7px;
+                margin-right: 15px;
+                background: linear-gradient(rgb(0, 188, 202), rgb(61, 132, 255));
+                border: 2px solid rgba(0, 160, 115, 0.7);
+                padding: 5px;
+                font-size: 20px;
+            }
+            .contact-number{
+                width: 200px;
+                height: 45px;
+                border-radius: 7px;
+                background: linear-gradient(rgb(0, 188, 202), rgb(61, 132, 255));
+                border: 2px solid rgba(0, 160, 115, 0.7);
+                padding: 5px;
+                font-size: 20px;
+            }
+        }
+        .contact-btn{
+            width: 170px;
+            height: 50px;
+            font-size: 23px;
+            font-weight: 600; 
+            border-radius: 15px;
+            background-color: rgb(107, 161, 255);
+            margin-top: 25px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            user-select: none;
+        }
+    }
+}

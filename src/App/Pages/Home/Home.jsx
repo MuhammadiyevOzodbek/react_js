@@ -40,58 +40,9 @@ function Home() {
         };
         fetchData()
         Aos.init({
-            duration: 600
+            duration: 900
         })
     }, [])
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState();
-    const [sendTrigger, setSendTrigger] = useState(false);
-
-    const telegramBotId = "7789924862:AAHjP8iHbS8A6lJKLFJa4RayOG9lkHl-kIw"; // Bot token
-    const chatId = 5481848326; // Chat ID
-
-    useEffect(() => {
-        if (!sendTrigger) return;
-
-        const sendTelegramMessage = async () => {
-            const formattedMessage = `Ismi: ${name}\nTel: ${email}`;
-
-            const payload = {
-                chat_id: chatId,
-                text: formattedMessage,
-            };
-
-            try {
-                const response = await fetch(`https://api.telegram.org/bot${telegramBotId}/sendMessage`, {
-                    method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify(payload),
-                });
-
-                if (response.ok) {
-                    console.log("Message sent successfully!");
-                    // Tozalash
-                    setName("");
-                    setEmail("");
-                } else {
-                    console.error("Failed to send message.");
-                }
-            } catch (error) {
-                console.error("Error: ", error);
-            } finally {
-                setSendTrigger(false);
-            }
-        };
-
-        sendTelegramMessage();
-    }, [sendTrigger, name, email]);
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setSendTrigger(true);
-    };
     return (
         <div className="home-page">
             <div className='home-page-1'>
@@ -195,7 +146,7 @@ function Home() {
                         <div className="home-page-5-ch">
                             <h1>React.js Frontend Developer</h1>
                             <p>Ushbu kurs tajribali veb-dasturchi bo'lish uchun to'liq qo'llanmadir. Unda React dasturchisi sifatida ishlashda bilishingiz kerak bo'lgan barcha vositalar va texnologiyalar mavjud.</p>
-                            <button style={{ marginTop: '46px' }}>Batafsil</button>
+                            <button style={{ marginTop: '46px', cursor: 'pointer' }}>Batafsil</button>
                         </div>
                     </div>
                     <div className="home-page-5-child">
@@ -203,7 +154,7 @@ function Home() {
                         <div className="home-page-5-ch">
                             <h1>Cybersecurity</h1>
                             <p>Ilg'or xakerlar, trekerlar, zararli dasturlar, nol kunlar, ekspluatatsiya to'plamlari, kiberjinoyatchilar va boshqalarni o'z ichiga olgan barcha onlayn tahdidlarga qarshi kurashish bo'yicha amaliy ko'nikmalarni o'rganing.</p>
-                            <button style={{ marginTop: '69px' }}>Batafsil</button>
+                            <button style={{ marginTop: '69px', cursor: 'pointer' }}>Batafsil</button>
                         </div>
                     </div>
                     <div className="home-page-5-child">
@@ -211,7 +162,7 @@ function Home() {
                         <div className="home-page-5-ch">
                             <h1>Python Django Backend Developer</h1>
                             <p>Noldan qurish Python Django - bu pragmatik va toza dizaynga ega yuqori darajadagi, yuqori darajada xavfsiz va kengaytiriladigan ilovalarni yaratish uchun butun dunyo bo'ylab foydalaniladigan server tomonidagi veb-ramka.</p>
-                            <button>Batafsil</button>
+                            <button style={{cursor: 'pointer'}}>Batafsil</button>
                         </div>
                     </div>
                 </div>
@@ -225,27 +176,11 @@ function Home() {
                         </div>
                     ))}
                 </div>
-                <form onSubmit={handleSubmit}>
-                    <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Ismingiz"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        required
-                    />
-                    <input
-                        type="number"
-                        name="number"
-                        id="number"
-                        placeholder="+998"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                    />
+                <form>
+                    <input type="text" id='name' placeholder='Ismingiz...' />
+                    <input type="number" id='number' placeholder='Tel raqamingiz...' />
                 </form>
-                    <input type="submit" value="Yuborish" id="btn" className='home-page-contact-btn' />
+                <button className='home-page-contact-btn'>Yuborish</button>
             </div>
             <div className="home-page-6-map">
                 {map.map((item, id) => (
