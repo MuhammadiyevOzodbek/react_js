@@ -29,7 +29,7 @@ function CourseOne() {
 
         const fetchData = async () => {
             try {
-                const req = await fetch('https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM4MzkzODgzLCJleHAiOjE3Mzg5OTg2ODN9.zM5h4n9yvs68GUWXxZcrjOSxfhSnmH-3G3EvGNm0d_c')
+                const req = await fetch('https://mmcqthzpqwjfxtjjpjky.supabase.co/storage/v1/object/sign/json/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqc29uL2RiLmpzb24iLCJpYXQiOjE3NDE2OTQzNDIsImV4cCI6MTc0MjI5OTE0Mn0.pR_Wf8PnDDmacUm9q1nxflA_G3bwcYNiwk-G2WWzCBc')
                 const res = await req.json()
                 setData(res.courseOneBir)
                 setData1(res.courseOneUch)

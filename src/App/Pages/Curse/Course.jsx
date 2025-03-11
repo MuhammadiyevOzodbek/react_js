@@ -8,7 +8,7 @@ function Course() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const request = await fetch('https://vqdmljutsvgbzlziztzm.supabase.co/storage/v1/object/sign/db/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJkYi9kYi5qc29uIiwiaWF0IjoxNzM4MjMxOTkyLCJleHAiOjE3Mzg4MzY3OTJ9.tl9yvxoS2wYmAEiCFC3GSLODfctzJaQLvCv4uCx-fFQ')
+                const request = await fetch('https://mmcqthzpqwjfxtjjpjky.supabase.co/storage/v1/object/sign/json/db.json?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJqc29uL2RiLmpzb24iLCJpYXQiOjE3NDE2OTQzNDIsImV4cCI6MTc0MjI5OTE0Mn0.pR_Wf8PnDDmacUm9q1nxflA_G3bwcYNiwk-G2WWzCBc')
                 const response = await request.json()
                 setData(response.coursePageTwo)
                 console.log(response.coursePageTwo);
